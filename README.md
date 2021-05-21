@@ -1,3 +1,24 @@
+# Heroku deployment link
+  https://evolv-fit.herokuapp.com/
+
+# Admin credentials
+  username- EvolvFit
+  password- 123@123
+
+# User Credentials
+  Username- Bob
+  Password- shahja
+
+# Basic Navigation guide
+  Admin -> https://evolv-fit.herokuapp.com/admin
+  Home  -> https://evolv-fit.herokuapp.com/
+  Login -> https://evolv-fit.herokuapp.com/login
+
+
+
+
+#####################################################################################################################################
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
