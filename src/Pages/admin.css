@@ -1,0 +1,117 @@
+body {
+	background-image: url('../images/background1.jpg');
+	background-size: cover;
+}
+.admin-div {
+	width: 75%;
+	display: flex;
+	margin: auto;
+	margin-top: 3rem;
+	height: 75vh;
+	justify-content: center;
+	border-radius: 15px;
+	box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
+}
+
+.admin-dishes {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+}
+.admin-categories {
+	background-color: #7c9479;
+	padding: 20px;
+	height: 75vh;
+	overflow-y: auto;
+}
+.admin-content {
+	display: flex;
+	margin-top: 20px !important;
+	padding: 10px;
+	border-radius: 15px;
+	background-color: white;
+	align-items: center;
+	height: 100px;
+	width: 80%;
+	margin: auto;
+  justify-content: space-around;
+}
+
+.admin-content-image {
+	border-radius: 10px;
+	margin-left: 1rem;
+}
+.admin-content-data {
+	display: flex;
+	margin-left: 2rem;
+}
+.admin-content-data div {
+	margin-right: 1.5rem;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.admin-form {
+	max-width: 516px;
+	height: 75vh;
+	background-color: white;
+	border: none;
+	padding: 4rem 3rem;
+	justify-content: center;
+}
+
+.admin-form .label {
+	display: flex;
+	background-color: white;
+	color: #7c9479;
+	border: 1px #7c9479 solid;
+	border-radius: 0.3rem;
+	padding: 0.8rem;
+	font-size: 1.2rem;
+	width: 20rem;
+	height: 3rem;
+	margin-top: 1rem;
+}
+.label:focus {
+	outline: none;
+	color: #b5bfca;
+}
+.Admin-Btn {
+	background-color: #7c9479;
+	color: white;
+	border: none;
+	font-size: 1.5rem;
+	border-radius: 0.3rem;
+	padding: 0.8rem;
+	width: 20rem;
+	height: 3rem;
+	cursor: pointer;
+	margin: auto;
+}
+
+.Admin-BtnDiv {
+	margin-top: 2rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.editForm {
+	opacity: 1;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 0px;
+	z-index: 2;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	left: 0;
+	justify-content: center;
+}
+
+.admin-delete-button{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
